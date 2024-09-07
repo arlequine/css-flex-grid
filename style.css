@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin:  150px 0;
+}
+
+.card {
+  width: 250px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+  justify-self: center;
+}
+
+.num {
+  font-size: 32px;
+}
+
+.container-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
